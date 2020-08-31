@@ -1,3 +1,7 @@
 num1 = int(input('Digite um valor: '))
-dobro = num1 * 2
-print ('o valor em dobro obtido é:', dobro)
+
+num2 = int(input('Digite outro valor: '))
+
+soma = num1 + num2
+
+print('A soma entre {} e {} é igual a {} !!'. format(num1, num2, soma))
